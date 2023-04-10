@@ -44,6 +44,7 @@ internal class Program
             default:
             break;
         }
+
     }
     static int IngresarInt(string mensaje)
     {  
