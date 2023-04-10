@@ -15,12 +15,20 @@ internal class Program
         Dictionary<int, List<string>> DicPersona = new Dictionary<int, List<string>>();
         Persona p1 = new Persona();
         List<string> listaPersona = new List<string>();
-        DateTime fechaNacimiento = new DateTime(año, mes, dia);
+        DateTime fechaNacimiento = new DateTime();
         int menu = IngresarInt("Ingrese un numero entre el 1 y el 5");
         switch (menu)
         {
             case 1:
             Opcion1(ref dni, ref nombre, ref apellido, ref email, ref año, ref mes, ref dia);
+            fechaNacimiento = new DateTime(año, mes, dia);
+            if(fechaNacimiento > DateTime.Today)
+            {
+                Console.WriteLine("Error, fecha mal ingresada");
+                año = IngresarInt("Ingrese su año de nacimiento");
+                mes = IngresarInt("Ingrese su mes de nacimiento");
+                dia = IngresarInt("Ingrese su dia de nacimiento");
+            }
             ArmarDic(DicPersona, listaPersona, dni, nombre, apellido, email);
             Console.WriteLine("Se ha agregado a " + nombre + " " + apellido + " a la lista");
             cantPersonas++;
@@ -60,13 +68,6 @@ internal class Program
         año = IngresarInt("Ingrese el año de nacimiento");
         mes = IngresarInt("Ingrese su mes de nacimiento");
         dia = IngresarInt("Ingrese su dia de nacimiento");
-        while(año <= 0 || mes <= 0|| dia <= 0)
-        {
-            Console.WriteLine("Error, datos mal ingresados");
-            año = IngresarInt("Ingrese el año de nacimiento");
-            mes = IngresarInt("Ingrese su mes de nacimiento");
-            dia = IngresarInt("Ingrese su dia de nacimiento");
-        }
     }
     static void ArmarDic(Dictionary<int, List<string>> dicPersona, List<string> listaPersona, int dni, string nombre, string apellido, string email)
     {

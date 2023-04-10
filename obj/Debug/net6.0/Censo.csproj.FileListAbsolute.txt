@@ -1,0 +1,15 @@
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.csproj.AssemblyReference.cache
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.AssemblyInfoInputs.cache
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.AssemblyInfo.cs
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.csproj.CoreCompileInputs.cache
+Z:\Programacion\Censo\bin\Debug\net6.0\Censo.exe
+Z:\Programacion\Censo\bin\Debug\net6.0\Censo.deps.json
+Z:\Programacion\Censo\bin\Debug\net6.0\Censo.runtimeconfig.json
+Z:\Programacion\Censo\bin\Debug\net6.0\Censo.dll
+Z:\Programacion\Censo\bin\Debug\net6.0\Censo.pdb
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.dll
+Z:\Programacion\Censo\obj\Debug\net6.0\refint\Censo.dll
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.pdb
+Z:\Programacion\Censo\obj\Debug\net6.0\Censo.genruntimeconfig.cache
+Z:\Programacion\Censo\obj\Debug\net6.0\ref\Censo.dll
